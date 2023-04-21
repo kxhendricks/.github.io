@@ -1,7 +1,7 @@
 body {
     margin: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 10px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
@@ -28,14 +28,13 @@ footer {
     grid-row: 1;
 }
 
-header,
 nav,
 footer {
     background-color: rgb(207, 195, 195);
 }
 
 section {
-    background-color: rgb(155, 147, 147);
+    background-color: rgb(183, 240, 204);
     padding: 20px;
 }
 
@@ -43,11 +42,10 @@ section {
 main {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-areas: 
     "introduction" "environment" "geography" "people-and-society";
 }
-
 
 
 a,
