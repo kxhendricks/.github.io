@@ -11,7 +11,7 @@ body {
     grid-row: 1;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: 24px;
-    font-style: oblique;
+    font-style: normal;
     font-weight: bolder;
     vertical-align: bottom;
     color: rgb(251, 255, 0);
@@ -48,7 +48,7 @@ a,
 a:link {
     color: rgb(8, 186, 91);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
+    font-style: oblique;
     font-weight: bold;
 }
 
@@ -68,8 +68,15 @@ a:active {
 }
 
 h1
-h2
-h3 {
+ {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+h2,
+h3,
+h4
+ { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500px;
 }
