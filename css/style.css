@@ -12,6 +12,11 @@ header {
     color: #ffff7f;
 }
 
+img {
+    float: right;
+    /*position img src Cameroon flag to the right in header*/
+}
+
 #box {
     background-color: #000;
     /*for around content in header section, 1520 x 315.75 static*/
