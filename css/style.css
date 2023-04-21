@@ -30,6 +30,10 @@ display: grid;
     "geography" "people";
 }
 
+.intro {
+    display: inline-block
+}
+
 
 footer {
     grid-column: 1 / 3;
