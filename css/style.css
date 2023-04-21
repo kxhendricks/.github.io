@@ -24,7 +24,6 @@ body {
 main {
 display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 300px 400px;
     grid-gap: 20px;
     grid-template-areas: 
     "introduction" "environment" 
