@@ -1,8 +1,8 @@
 body {
     margin: 40px;
     display: grid;
-    grid-template-rows: 400px 400px 400px;
-    grid-template-columns: 200px 200px 200px;
+     grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 300px 300px 300px;
     grid-gap: 20px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
@@ -11,8 +11,7 @@ body {
 
 #layout {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 400px 400px 400px;
+   
 }
 
  header {
