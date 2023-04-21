@@ -20,6 +20,8 @@ header {
 
 div {
     text-align: center;
-    height: -20px;
+    -webkit-margin-top-collapse: collapse;
+    
+
 }
 
