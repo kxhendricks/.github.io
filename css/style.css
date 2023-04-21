@@ -23,12 +23,9 @@ body {
     position: relative;
 }
 
-header,
 footer {
     grid-column: 1 / 3;
     grid-row: 1;
-    position: relative;
-    vertical-align: bottom;
 }
 
 nav,
