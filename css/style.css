@@ -10,15 +10,15 @@ header {
     font-weight: bold;
     line-height: 0.8;
     color: #ffff7f;
-    
-    #box {
+}
+ 
+#box {
     background-color: #000;
     /*for around content in header section, 1520 x 315.75 static*/
     border: 2px outset #4f0202;
     }
 
-    img {
+ img {
+    /*apply to images/cameroon-flag.jpg*/
         float: inline-end;
     }
-
-}
