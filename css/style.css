@@ -18,7 +18,8 @@ header {
     border: 2px outset #4f0202;
     }
 
- .right {
-        float: inline-end;
-        padding: 0 0 20px 20px;
-    }
+div {
+    text-align: center;
+    position: absolute;
+}
+
