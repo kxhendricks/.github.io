@@ -15,17 +15,12 @@ header {
     border-width: 2px;
     position: relative;
 }
- 
-#box {
-    
-    /*for around content in header section, 1520 x 315.75 static*/
-    border: 2px outset #4f0202;
-    }
 
 div {
     display: block;
     margin-top: -30px;
     margin-left: auto;
+    border: 1px solid #444;
 
 }
 
