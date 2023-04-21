@@ -20,9 +20,7 @@ header {
 
 div {
     text-align: center;
-    margin-top: 0%;
-    height:0%;
-    padding:0%
+    object-position: top 0;
 
 
 }
