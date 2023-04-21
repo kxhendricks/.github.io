@@ -28,12 +28,8 @@ display: grid;
     grid-template-areas: 
     "introduction" "environment" 
     "geography" "people";
+    text-align: justify;
 }
-
-.intro {
-    display: grid
-}
-
 
 footer {
     grid-column: 1 / 3;
