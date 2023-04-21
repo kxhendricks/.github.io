@@ -79,6 +79,9 @@ h4
     font-weight: 500px;
 }
 
+ul > li {
+    list-style-type: disc;
+}
 
 figure {
     border: 1px solid rgb(68, 68, 68);
