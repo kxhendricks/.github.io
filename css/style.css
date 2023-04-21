@@ -1,8 +1,13 @@
 body {
     margin: 40px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 15px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
     color: #000
+
+    
  }
 
 
@@ -20,6 +25,8 @@ body {
     border-width: 2px;
     position: relative;
 }
+
+
 
 footer {
     grid-column: 1 / 3;
