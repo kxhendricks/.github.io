@@ -3,8 +3,6 @@ body {
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
     color: #000
-
-    
  }
 
 
@@ -23,6 +21,11 @@ body {
     position: relative;
 }
 
+main {
+    
+
+
+}
 
 
 footer {
@@ -38,6 +41,12 @@ footer {
 section {
     background-color: rgb(218, 241, 227);
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "introduction" "environment" 
+    "geography" "people";
 }
 
 article {
