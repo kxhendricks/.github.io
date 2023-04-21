@@ -50,6 +50,7 @@ section {
 article {
     background-color: rgb(218, 241, 227);
     padding: 20px;
+    grid-template-rows: 1fr 2fr;
 }
 
 
