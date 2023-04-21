@@ -1,7 +1,9 @@
 body {
-    margin: 40px;
+    margin: 40px auto;
+    max-width: 960px;
+    line-height: 1.5;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
@@ -41,7 +43,7 @@ article {
     background-color: rgb(218, 241, 227);
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     grid-template-areas: "land-boundaries", "geographic-coordinates", "religion", "population-distribution";
 
@@ -51,7 +53,7 @@ article {
 main {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 200px 100px;
     grid-template-areas: 
     "introduction", "environment", "geography", "people-and-society";
 }
