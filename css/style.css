@@ -65,11 +65,16 @@ a:active {
     color: rgb(239, 216, 8);
 }
 
-a,
-h1
- {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(221, 221, 221);
+
+}
+
+tr:hover {background-color: rgb(115, 236, 139);}
+th {
+    background-color: rgb(164, 158, 158);
 }
 
 a,
