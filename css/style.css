@@ -5,6 +5,12 @@ body {
     color: #000
  }
 
+ .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 400px;
+ }
+
 
  header {
     grid-column: 1 / 3;
