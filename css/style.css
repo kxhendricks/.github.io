@@ -20,8 +20,7 @@ header {
 
 div {
     text-align: center;
-    object-position: top 0;
-
-
+    position: absolute;
+    margin-top: -20px;
 }
 
