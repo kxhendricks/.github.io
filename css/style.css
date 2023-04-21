@@ -1,9 +1,5 @@
 body {
     margin: 40px;
-    display: grid;
-     grid-template-columns: 600px 600px 600px;
-    grid-template-rows: 300px 300px 300px;
-    grid-gap: 20px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
     color: #000
@@ -55,10 +51,7 @@ article {
 
 main {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    "introduction", "environment", "geography", "people-and-society";
+
 }
 
 
