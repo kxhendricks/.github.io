@@ -65,19 +65,22 @@ a:active {
     color: rgb(239, 216, 8);
 }
 
+a,
 h1
  {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
+   
 }
 
+a,
 h2,
 h3,
 h4
  { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500px;
+    font-weight: 500px; 
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 ul > li {
