@@ -16,12 +16,21 @@ header {
     position: relative;
 }
 
-div {
-    display: block;
-    margin-top: -30px;
-    margin-left: auto;
+figure {
     border: 1px solid #444;
+    margin: 0;
+    padding: 20px 20px 33px 20px;
+    width: 230px;
+}
 
+img {
+    border: 1px solid #444;
+}
+
+figcaption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-align: right;
 }
 
 
