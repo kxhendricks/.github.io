@@ -48,11 +48,7 @@ section {
 }
 
 article {
-    display: grid;
-    grid-template-rows: 200px 200px;
-    grid-gap: 20px;
-    grid-template-areas: "land-boundaries" "geographic-coordinates" 
-                            "religion" "population";
+   
     background-color: rgb(218, 241, 227);
     padding: 20px;
     
