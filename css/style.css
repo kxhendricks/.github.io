@@ -8,7 +8,7 @@ body {
  .wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: 100px auto;
+    grid-auto-rows: 400px 400px 400px;
  }
 
 
