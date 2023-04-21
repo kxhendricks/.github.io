@@ -41,6 +41,7 @@ article {
     background-color: rgb(218, 241, 227);
     padding: 20px;
     display: grid;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 10px;
     grid-template-areas: "land-boundaries", "geographic-coordinates", "religion", "population-distribution";
 
