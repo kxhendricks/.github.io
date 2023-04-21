@@ -7,6 +7,8 @@ body {
 
 #layout {
     display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 500px;
    
 }
 
