@@ -23,8 +23,8 @@ header {
     }
 
 div {
-    float: inline-end;
-    margin-top: -20px;
+    float: inline-start;
+    margin-top: -30px;
     padding-left: 0;
     padding-top: 0;
     padding-right: 0;
