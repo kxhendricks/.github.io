@@ -6,13 +6,13 @@ body {
 
 header {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     line-height: 0.8;
     color: #ffff7f;
     background-color: #000;
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
 }
  
 #box {
