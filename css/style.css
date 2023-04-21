@@ -49,11 +49,11 @@ figure {
     margin: 0;
     padding: 20px 20px 33px 20px;
     width: 230px;
+    text-align: center;
 }
 
 img {
     border: 1px solid #444;
-    text-align: center;
 }
 
 figcaption {
