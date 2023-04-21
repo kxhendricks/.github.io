@@ -43,15 +43,13 @@ footer {
 
 section {
     background-color: rgb(218, 241, 227);
-    padding: 5px;
+    padding: 20px;
     
 }
 
 article {
-   
     background-color: rgb(218, 241, 227);
-    padding: 5px;
-    
+    padding: 20px;
 }
 
 
@@ -100,6 +98,7 @@ h4
     font-weight: 500px; 
     font-weight: bold;
     text-transform: uppercase;
+    padding: 0;
 }
 
 ul > li {
