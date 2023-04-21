@@ -28,7 +28,7 @@ footer {
 
 nav,
 footer {
-    background-color: rgb(207, 195, 195);
+    background-color: rgb(218, 241, 227);
 }
 
 section {
@@ -40,8 +40,6 @@ article {
     background-color: rgb(218, 241, 227);
     padding: 20px;
 }
-
-
 
 
 a,
@@ -83,7 +81,7 @@ h4
 
 
 figure {
-    border: 1px solid #444;
+    border: 1px solid rgb(68, 68, 68);
     margin: 0;
     padding: 20px 20px 33px 20px;
     width: 230px;
@@ -91,13 +89,17 @@ figure {
 }
 
 img {
-    border: 1px solid #444;
+    border: 1px solid rgb(68, 68, 68);
 }
 
 figcaption {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
     text-align: left;
+}
+
+#population {
+    border: 1px dashed rgb(0, 0, 0);
 }
 
 
