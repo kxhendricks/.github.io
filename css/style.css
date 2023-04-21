@@ -28,7 +28,7 @@ display: grid;
     grid-template-areas: 
     "introduction" "environment" 
     "geography" "people";
-    text-align: justify;
+    text-align: start;
 }
 
 footer {
