@@ -20,8 +20,9 @@ header {
 
 div {
     text-align: center;
-    -webkit-margin-top-collapse: collapse;
-    
+    margin-top: 0%;
+    padding-block: 10px;
+
 
 }
 
