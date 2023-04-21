@@ -25,11 +25,9 @@ body {
 main {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 200px 100px;
+    grid-template-columns: 2fr 2fr;
     grid-template-areas: 
-    "introduction introduction"
-    "environment"  "geography" 
-     "people-and-society";
+    "introduction" "environment" "geography" "people-and-society";
 }
 
 
