@@ -21,7 +21,7 @@ figure {
     margin: 0;
     padding: 20px 20px 33px 20px;
     width: 230px;
-    text-align: right;
+    float: inline-end;
 }
 
 img {
