@@ -23,7 +23,7 @@ body {
 
 main {
 display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 400px 500px;
     grid-gap: 20px;
     grid-template-areas: 
     "introduction" "environment" 
@@ -50,7 +50,6 @@ section {
 article {
     background-color: rgb(218, 241, 227);
     padding: 20px;
-    grid-template-rows: 1fr 2fr;
 }
 
 
