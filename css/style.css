@@ -23,8 +23,6 @@ body {
 
 main {
 display: grid;
-    margin-bottom: 5px;
-    padding: 1px;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-gap: 20px;
     grid-template-areas: 
@@ -45,14 +43,14 @@ footer {
 
 section {
     background-color: rgb(218, 241, 227);
-    padding: 20px;
+    padding: 5px;
     
 }
 
 article {
    
     background-color: rgb(218, 241, 227);
-    padding: 20px;
+    padding: 5px;
     
 }
 
