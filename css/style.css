@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    grid-column: 1 / -1;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     font-size: 26px;
     font-weight: bold;
