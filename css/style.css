@@ -1,4 +1,9 @@
 body {
+    max-width: 960px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
 
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: 16px;
@@ -18,7 +23,21 @@ header {
     position: relative;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "introduction introduction"
+    "environment"  "geography" 
+     "people-and-society";
 
+}
+
+#introduction {
+    grid-area:introduction ;
+
+}
 
 a,
 a:link {
