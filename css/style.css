@@ -1,0 +1,28 @@
+body {
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0%;
+overflow: hidden;
+background-color:blueviolet
+}
+
+li {
+    float:left
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14 px 16 px;
+    text-decoration: none;
+}
+
+/*Change link color to black on hover*/
+    li a:hover {
+        background-color: black;
+    }
