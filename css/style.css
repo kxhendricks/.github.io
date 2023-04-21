@@ -23,7 +23,8 @@ body {
 
 main {
 display: grid;
-    grid-template-columns: 200px 500px 200px 200px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 200px 400px 200px;
     grid-gap: 20px;
     grid-template-areas: 
     "introduction" "environment" 
