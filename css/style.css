@@ -1,10 +1,10 @@
 body {
 
-    max-width: max-content;
+    max-width: 900px;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: 20px;
-    grid-gap: 20px;
+    grid-template-columns: 70px;
+    grid-gap: 30px;
     
 
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    grid-area: auto;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     font-size: 26px;
     font-weight: bold;
