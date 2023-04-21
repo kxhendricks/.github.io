@@ -18,7 +18,9 @@ header {
     border: 2px outset #4f0202;
     }
 
- img {
-    /*apply to images/cameroon-flag.jpg*/
-        float: inline-end;
+ .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
