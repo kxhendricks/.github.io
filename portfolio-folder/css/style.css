@@ -8,6 +8,27 @@ font-family: "Luminari", "fantasy";
 text-align: center;
 }
 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(120, 33, 202);
+    background-color: rgb(120, 33, 202, 0.9);
+    transition: 0.5s;
+
+}
+
+.overlay-content {
+    display: block;
+    padding: 8px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+
 h1 {
     font-family: "Luminari", "fantasy";
     font-style: oblique;
