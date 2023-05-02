@@ -1,16 +1,20 @@
 head {
+align-content: center;
 height: 100%;
 }
 
-img {
-    /*Portrait*/
-    background-image: url(portrait.jpg);
-
-    /*Full height */
-    height: 100%;
-
-    /*Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+font-family: "Luminari", "fantasy";
+text-align: center;
 }
+
+h1 {
+    font-family: "Luminari", "fantasy";
+    font-style: oblique;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
