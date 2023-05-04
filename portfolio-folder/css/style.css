@@ -5,7 +5,6 @@ height: 100%;
 
 header {
 font-family: "Luminari", "fantasy";
-text-align: center;
 }
 
 .overlay {
@@ -27,6 +26,7 @@ text-align: center;
     font-size: 36px;
     color: rgb(255, 255, 255);
 }
+
 
 
 h1 {
