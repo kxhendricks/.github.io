@@ -122,17 +122,27 @@ font: 25px;
     translate: (-50%, -50%);
 }
 
+.column {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items:start;
+}
 
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .column img:hover {
     opacity: 1;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 .containter {
     border-radius: 5px;
