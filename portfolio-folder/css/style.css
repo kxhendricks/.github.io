@@ -1,11 +1,11 @@
-@import url(https://fonts.google.com/specimen/Bebas+Neue?query=bebas);
+@import url(https://fonts.google.com/specimen/Notable);
 head {
 align-content: center;
 height: 100%;
 }
 
 header {
-font-family: 'Bebas Neue';
+font-family: 'Notable';
 text-align: center;
 }
 
