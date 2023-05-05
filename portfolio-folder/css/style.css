@@ -168,7 +168,8 @@ h2 {
 }
 
 h3 {
-    font-style: oblique;
+    font-size: 15px;
+    font-family: 'Bebas Neue', 'Notable';
 }
 
 .group {
@@ -250,9 +251,4 @@ input[type=submit]:hover {
     font-family: 'Bebas Neue', 'Notable';
     color: rgb(0, 0, 0);
     font-size: 20px;
-}
-
-figcaption {
-    font-size: 15px;
-    font-family: 'Bebas Neue', 'Notable';
 }
