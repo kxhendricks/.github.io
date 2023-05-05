@@ -16,6 +16,9 @@ text-align: center;
     float: right;
 }
 
+body, html {
+    height: 100%;
+}
 .navbar {
     overflow: hidden;
     background-color: rgb(98, 10, 157);
@@ -62,6 +65,31 @@ text-align: center;
     display: block;
     color: #c835ad;
 
+}
+
+.parent {
+    position: relative;
+}
+
+.image1 {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.image-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
 }
 
 
