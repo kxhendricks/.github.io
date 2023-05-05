@@ -184,7 +184,7 @@ h3 {
 article {
     max-width: 300px;;
     padding: 10px;
-    display: flex;
+    display: inline-flexbox;
 }
 
 
