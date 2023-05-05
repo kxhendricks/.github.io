@@ -68,9 +68,25 @@ body, html {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    color: #c835ad;
+    color: rgb(200, 53, 173);
     font-family: 'Bebas Neue', 'Notable';
 }
+
+a,
+a:visited {
+    color: rgb(126, 33, 163);
+}
+
+a,
+a:hover {
+    color: rgb(200, 53, 173);
+}
+
+a,
+a:active {
+    color: rgb(8, 239, 139);
+}
+
 
 .parent {
     position: relative;
@@ -142,10 +158,20 @@ body, html {
 
 h1 {
     font-family: 'Bebas Neue', 'Notable';
+    font-size: 40px;
 }
 
 h2 {
     font-family:'Eb Garamond','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3 {
+    font-style: oblique;
+}
+
+.first::first-letter{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 main {
