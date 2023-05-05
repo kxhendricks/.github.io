@@ -16,42 +16,46 @@ text-align: center;
     float: right;
 }
 
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: rgb(120, 33, 202);
-    background-color: rgb(120, 33, 202, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-
+.navbar {
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
 }
 
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(244, 244, 244);
     text-align: center;
-    margin-top: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.overlay a {
-    padding: 8px;
-    font-size: 36px;
-    color: rgb(255, 255, 255);
-    display: block;
-    transform-origin: 0.3s;
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
 
-.overlay .closebtn {
+.dropdown .dropbtn {
+    font-size: 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
 }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
 
 .portrait {
  /*Portrait image*/
