@@ -136,7 +136,8 @@ font: 25px;
     margin-top: 8px;
     object-fit: cover;
     vertical-align: middle;
-    width: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 .column img:hover {
@@ -194,7 +195,8 @@ h3 {
 }
 
 .resume {
-    float: right;
+    position: absolute;
+    align-items: baseline;
 }
 
 img {
