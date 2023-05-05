@@ -38,7 +38,7 @@ text-align: center;
 
 .portrait {
  /*Portrait image*/
-    background-image:"images/portrait.jpg";
+    background-image: url("images/portrait.jpg");
 
  /*Full height */
     height: 100%;
