@@ -88,6 +88,10 @@ a:hover {
 a,
 a:active {
     color: rgb(5, 5, 5);
+}
+
+a {
+    font: 24px;
     font-family: 'Bebas Neue', 'Notable';
 }
 
