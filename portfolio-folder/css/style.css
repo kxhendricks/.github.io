@@ -182,9 +182,9 @@ h3 {
 }
 
 article {
-    max-width: 960px;
-    overflow: hidden;
+    max-width: 700px;
 }
+
 
 
 .first::first-letter{
