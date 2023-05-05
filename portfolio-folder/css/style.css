@@ -146,8 +146,9 @@ a:active {
 }
 
 .containter {
-    position: relative;
-    display: none;
+    border-radius: 5px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
 }
 
 .closebtn {
@@ -182,3 +183,34 @@ h3 {
 main {
     font-family:'Eb Garamond','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(114, 204, 171);
+    color: rgb(255, 254, 254);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.columns {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
