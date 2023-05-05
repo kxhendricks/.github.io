@@ -195,8 +195,8 @@ h3 {
 }
 
 .resume {
-    size-adjust: 40px;
-    position: relative;
+    align-self: flex-start;
+    font-size: 22px;
 }
 
 img {
