@@ -257,3 +257,8 @@ input[type=submit]:hover {
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
+
+figcaption {
+    font-weight: bold;
+    font-size: 17px;
+}
