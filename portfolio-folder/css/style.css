@@ -11,10 +11,10 @@ text-align: center;
 
 .headshot {
     border: 1px solid #777;
+    align-self: center;
     margin: 0;
     padding: 20px 20px 30px 20px;
     width: 350px;
-    float: right;
 }
 
 body, html {
