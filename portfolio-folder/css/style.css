@@ -65,7 +65,7 @@ body, html {
     padding: 5px;
     font-family: 'Bebas Neue', 'Notable';
     color: rgb(250, 250, 250);
-    font-size: 36px;
+    font-size: 25px;
     font-family: 'Bebas Neue', 'Notable';
 }
 
@@ -162,6 +162,7 @@ a:active {
 h1 {
     font-family: 'Bebas Neue', 'Notable';
     font-size: 85px;
+    margin-bottom: 0;
 }
 
 h2 {
