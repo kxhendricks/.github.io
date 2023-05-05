@@ -219,7 +219,7 @@ input[type=submit]:hover {
     }
 }
 
-.button {
+.button a {
     display: inline-block;
     padding: 15px 25px;
     font: 16px;
@@ -228,7 +228,7 @@ input[type=submit]:hover {
     box-shadow: 0 9px rgb(153, 153, 153);
 }
 
-.button:hover {
+.button a:hover {
     background-color: rgb(75, 209, 174);
 }
 
