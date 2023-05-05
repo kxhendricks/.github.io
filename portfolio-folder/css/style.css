@@ -259,6 +259,7 @@ input[type=submit]:hover {
 }
 
 figcaption {
-    font-weight: bold;
-    font-size: 17px;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: 'Bebas Neue', 'Notable';
 }
