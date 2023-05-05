@@ -192,11 +192,10 @@ h3 {
     font-size: 20px;
     box-sizing: border-box;
     border-radius: 30px;
-    align-content: center;
 }
 
 .resume {
-    align-content: center;
+    float: inherit;
 }
 
 img {
