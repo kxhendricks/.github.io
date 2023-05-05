@@ -49,6 +49,7 @@ body, html {
     background-color: inherit;
     font: inherit;
     margin: 0;
+    font-family: 'Bebas Neue', 'Notable';
 }
 
 .dropdown-content {
