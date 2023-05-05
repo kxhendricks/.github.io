@@ -195,7 +195,8 @@ h3 {
 }
 
 .resume {
-    align-self: flex-start;
+    align-content: center;
+    align-items: last baseline;
     font-size: 22px;
 }
 
