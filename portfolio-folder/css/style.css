@@ -96,8 +96,9 @@ body, html {
 .column {
     width: 600px;
     display: grid;
-    grid-template-columns: repeat(9, 400px);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
+    align-items:start;
 }
 
 .column img {
