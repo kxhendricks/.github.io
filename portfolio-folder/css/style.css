@@ -104,11 +104,12 @@ font: 25px;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    text-align: center;
 }
 
 .image2 {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 20%;
 }
 
