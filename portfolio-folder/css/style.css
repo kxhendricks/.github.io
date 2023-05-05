@@ -181,8 +181,8 @@ h3 {
 }
 
 article {
-    line-height: 50px;
-    max-width: 60px;
+    line-height: 600px;
+    max-width: 960px;
     overflow: hidden;
 }
 
