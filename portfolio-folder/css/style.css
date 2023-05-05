@@ -5,7 +5,7 @@ height: 100%;
 }
 
 header {
-font-family: 'Notable';
+font-family: 'Notable'; 
 text-align: center;
 }
 
@@ -139,7 +139,7 @@ body, html {
 }
 
 h1 {
-    font;
+    font-family: 'Notable';
     font-style: oblique;
     font-weight: bold;
 }
