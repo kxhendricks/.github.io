@@ -94,9 +94,10 @@ body, html {
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(9, 400px);
+    grid-gap: 10px;
 }
 
 .column img {
