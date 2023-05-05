@@ -201,6 +201,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
+input[type=submit]:hover {
+    background-color: rgb(80, 212, 159);
+}
+
 .columns {
     float: left;
     width: 50%;
