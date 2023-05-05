@@ -18,7 +18,7 @@ text-align: center;
 
 body, html {
     height: 100%;
-    max-width: fit-content 960px;
+    max-width: 600px;
 }
 .navbar {
     overflow: hidden;
