@@ -19,7 +19,6 @@ text-align: center;
 
 body, html {
     height: 100%;
-    width: fit-content;
 }
 
 
@@ -191,6 +190,10 @@ h3 {
     border-radius: 30px;
 }
 
+.resume {
+    align-items: center;
+    align-items: baseline;
+}
 
 img {
     max-width: 100%;
