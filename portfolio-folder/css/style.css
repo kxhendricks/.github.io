@@ -23,12 +23,11 @@ text-align: center;
 
 .navbar a {
     float: left;
-    font-size: 20px;
+    font-size: 26px;
     color: rgb(244, 244, 244);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 .dropdown {
@@ -61,7 +60,7 @@ text-align: center;
 
 .dropdown:hover .dropdown-content {
     display: block;
-    background-color: #c835ad;
+    color: #c835ad;
 
 }
 
