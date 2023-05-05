@@ -231,3 +231,9 @@ input[type=submit]:hover {
 .button:hover {
     background-color: rgb(75, 209, 174);
 }
+
+#top {
+    font-family: 'Bebas Neue', 'Notable';
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
