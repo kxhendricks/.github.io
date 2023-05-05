@@ -136,8 +136,8 @@ font: 25px;
     margin-top: 8px;
     object-fit: cover;
     vertical-align: middle;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
 }
 
 .column img:hover {
