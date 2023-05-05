@@ -36,7 +36,19 @@ text-align: center;
     color: rgb(255, 255, 255);
 }
 
+.portrait {
+ /*Portrait image*/
+    background-image: url("images/portrait.jpg");
 
+ /*Full height */
+    height: 100%;
+
+ /*Center and scale*/
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
 
 h1 {
     font-family: "Luminari", "fantasy";
