@@ -179,6 +179,13 @@ h3 {
     font-style: oblique;
 }
 
+article {
+    line-height: 50px;
+    max-width: 60px;
+    overflow: hidden;
+}
+
+
 .first::first-letter{
     font-weight: bold;
     font-size: 22px;
