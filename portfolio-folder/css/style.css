@@ -69,7 +69,7 @@ body, html {
 .dropdown:hover .dropdown-content {
     display: block;
     color: #c835ad;
-
+    font-family: 'Bebas Neue', 'Notable';
 }
 
 .parent {
